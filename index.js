@@ -15,6 +15,11 @@ app.get('/', (req, res) => {
     res.send()
 })
 
+app.post('/', (req, res) => {
+    console.log(req.body)
+    res.send()
+})
+
 app.get('/response', (req, res) => {
 
 })
