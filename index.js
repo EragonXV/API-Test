@@ -4,7 +4,6 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 
 const bodyParser = require('body-parser')
-
 const app = express()
 
 app.use(bodyParser.json())
